@@ -1,5 +1,22 @@
 # Programmable Neurorepair
 
+![Project status](https://img.shields.io/badge/status-early_prototype-blue)
+![Focus](https://img.shields.io/badge/focus-neural_state_transitions-purple)
+![Domain](https://img.shields.io/badge/domain-computational_neuroscience-green)
+
+---
+
+## Engine architecture
+
+```mermaid
+flowchart LR
+    A[Single-cell datasets] --> B[State mapping]
+    B --> C[Repair-state signature]
+    C --> D[Candidate control nodes]
+    D --> E[Transition modeling]
+    E --> F[Intervention simulation]
+```
+
 Programmable Neurorepair is a computational engine for mapping neural cell-state transitions and identifying molecular control points that can shift cells toward regenerative or functional states.
 
 The project is motivated by a broader question: how can neural systems move from being highly observable to becoming more predictable, interpretable, and eventually guideable? The current proof of concept focuses on remyelination, using single-cell transcriptomic data to model how oligodendrocyte-lineage cells move between precursor-like and mature repair states.
@@ -97,16 +114,15 @@ These components are designed to move from descriptive state mapping toward comp
 
 ---
 
-## Engine snapshot
+## System components
 
-| Component | Status |
+| Component | Description |
 |---|---|
-| State mapping | implemented |
-| Repair-state signature | implemented |
-| Cross-dataset validation | implemented |
-| Candidate prioritization | implemented |
-| Transition modeling | implemented |
-| Intervention simulation | implemented |
+| State mapping | reconstruction of neural state landscapes |
+| Repair signature | identification of mature repair-state programs |
+| Candidate prioritization | ranking molecular control nodes |
+| Transition modeling | modeling probability of state shifts |
+| Intervention simulation | testing perturbation hypotheses |
 
 ---
 
@@ -125,6 +141,14 @@ Programmable Neurorepair is designed as the first module of a broader platform f
 Remyelination is the initial tractable test case, but the larger objective is to extend this framework toward additional neural systems and state dynamics, including neural adaptation, plasticity, and other forms of coordinated biological reorganization.
 
 The long-term goal is to build computational systems capable of identifying molecular control points that govern neural plasticity, repair, and adaptation — and eventually make neural state transitions more predictable and guideable.
+
+---
+
+## Repository structure
+
+- `figures/` — visual outputs
+- `results/` — model outputs and tables
+- `docs/` — technical notes and summaries
 
 ---
 
