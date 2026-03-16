@@ -1,24 +1,38 @@
 # Programmable Neurorepair
 
-Programmable Neurorepair is a computational framework for mapping neural cell-state transitions and identifying molecular control points that can shift cells toward regenerative or functional states.
+Programmable Neurorepair is a computational engine for mapping neural cell-state transitions and identifying molecular control points that can shift cells toward regenerative or functional states.
 
-The project focuses on building systems that move neuroscience beyond observation and toward the ability to predict and guide biological state transitions across the central nervous system.
-
----
-
-# Core Question
-
-Modern neuroscience can measure cells and molecular states at extraordinary resolution, particularly with single-cell transcriptomics. However, identifying which mechanisms actually control transitions between neural states remains extremely difficult.
-
-Programmable Neurorepair addresses this gap by modeling how neural cell populations move across state landscapes and identifying candidate control nodes associated with those transitions.
+The project is motivated by a broader question: how can neural systems move from being highly observable to becoming more predictable, interpretable, and eventually guideable? The current proof of concept focuses on remyelination, using single-cell transcriptomic data to model how oligodendrocyte-lineage cells move between precursor-like and mature repair states.
 
 ---
 
-# Current Focus: Oligodendrocyte Repair Dynamics
+## Why this matters
 
-The first module of the system focuses on oligodendrocyte lineage dynamics during demyelination and remyelination.
+Modern neuroscience can measure cells, circuits, and molecular states at extraordinary resolution, but still lacks principled frameworks for understanding what actually controls transitions between neural states.
 
-The framework analyzes single-cell transcriptomic datasets to model transitions between:
+As a result, many interventions remain blunt relative to the complexity of the systems they are trying to affect. We can often describe dysfunction in great detail without understanding which molecular control points govern the movement between damaged, adaptive, and repair-supporting states.
+
+Programmable Neurorepair is an attempt to help close that gap.
+
+---
+
+## Core idea
+
+The engine is designed to:
+
+- map neural cell-state landscapes across conditions
+- identify molecular control points associated with transitions between those states
+- simulate how perturbations could shift cells toward desired functional outcomes
+
+The long-term vision is to build computational systems that make neural state transitions more mappable, more predictive, and eventually more guideable across the central nervous system.
+
+---
+
+## Current focus: oligodendrocyte repair dynamics
+
+The first module focuses on oligodendrocyte lineage dynamics during demyelination and remyelination.
+
+Using single-cell transcriptomic datasets, the framework models transitions between:
 
 - precursor-like oligodendrocyte states
 - mature oligodendrocyte repair states
@@ -27,13 +41,13 @@ This allows the system to identify molecular control points associated with the 
 
 ---
 
-# Repair-State Signature
+## Repair-state signature
 
 The current repair-state program includes genes strongly associated with mature oligodendrocyte function and remyelination:
 
 - Mal
 - Cldn11
-- Pll1
+- Plp1
 - Mog
 - Mobp
 - Mbp
@@ -44,54 +58,65 @@ The current repair-state program includes genes strongly associated with mature 
 - Ptgds
 - Myrf
 
-These genes define the mature repair-state signature used by the engine to classify cellular states.
+These genes define the mature repair-state signature used by the engine to classify cellular states and model repair-associated transitions.
 
 ---
 
-# Candidate Molecular Control Nodes
+## Candidate molecular control layers
 
-Initial analyses highlight several candidate control layers associated with remyelinating states:
+Initial analyses highlight several mechanistically distinct candidate layers associated with remyelinating states:
 
-**Flagship repair-state lever**
-- Tspan2
+### Flagship repair-state lever
+- **Tspan2**
 
-**Repair architecture genes**
-- Gjc2
-- Fa2h
-- Aspa
+### Repair architecture / support layer
+- **Gjc2**
+- **Fa2h**
+- **Aspa**
+- **Abca2**
 
-**Signaling and regulatory candidates**
-- Ptgds
-- Ptprd
+### Signaling and control candidates
+- **Ptgds**
+- **Ptprd**
 
-These genes represent potential molecular levers influencing the probability of oligodendrocyte maturation and myelin repair.
+Together, these candidates suggest that remyelination may be decomposed into multiple functional layers rather than explained by a single marker or pathway.
 
 ---
 
-# Engine Components
+## Engine components
 
-Current system components include:
+The current version of the system includes:
 
 - repair-state signature derivation
 - cross-dataset validation
 - candidate control node prioritization
+- intervention simulation
 - transition modeling
-- intervention simulation (v1)
+
+These components are designed to move from descriptive state mapping toward computationally guided hypotheses about which perturbations are most likely to shift repair probability.
 
 ---
 
-# Vision
+## Current status
 
-Programmable Neurorepair is designed as a general framework for mapping and guiding neural cell-state transitions.
+Early computational prototype.
 
-Remyelination is the first tractable test case, but the broader objective is to extend the system toward additional neural cell types and state dynamics across the central nervous system.
-
-The long-term goal is to build computational systems capable of identifying molecular control points that govern neural plasticity, repair, and adaptation, and eventually make neural state transitions more predictable and guideable.
+The first version has been developed across multiple independent datasets and is being used as a proof of concept for a broader framework centered on neural cell-state transitions and molecular control logic.
 
 ---
 
-## Repository Structure
+## Long-term vision
 
-- `figures/` — visual outputs  
-- `results/` — model outputs and tables  
+Programmable Neurorepair is designed as the first module of a broader platform for understanding and guiding neural cell-state transitions across the central nervous system.
+
+Remyelination is the initial tractable test case, but the larger objective is to extend this framework toward additional neural systems and state dynamics, including neural adaptation, plasticity, and other forms of coordinated biological reorganization.
+
+The long-term goal is to build computational systems capable of identifying molecular control points that govern neural plasticity, repair, and adaptation — and eventually make neural state transitions more predictable and guideable.
+
+---
+
+## Repository structure
+
+- `figures/` — visual outputs
+- `results/` — model outputs and tables
 - `docs/` — technical notes and summaries
