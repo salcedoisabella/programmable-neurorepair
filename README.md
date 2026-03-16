@@ -97,6 +97,19 @@ These components are designed to move from descriptive state mapping toward comp
 
 ---
 
+## Engine snapshot
+
+| Component | Status |
+|---|---|
+| State mapping | implemented |
+| Repair-state signature | implemented |
+| Cross-dataset validation | implemented |
+| Candidate prioritization | implemented |
+| Transition modeling | implemented |
+| Intervention simulation | implemented |
+
+---
+
 ## Current status
 
 Early computational prototype.
