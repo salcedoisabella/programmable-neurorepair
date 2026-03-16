@@ -2,8 +2,6 @@
 
 This folder contains the current visible evidence layer of Programmable Neurorepair.
 
-The purpose of this folder is to show the operational outputs already present in the project rather than only describing the framework conceptually.
-
 ## Current artifacts
 
 - [Dataset roles](dataset_roles.md)
@@ -16,14 +14,12 @@ The purpose of this folder is to show the operational outputs already present in
 
 ## What this folder currently demonstrates
 
-This folder already shows that the project contains:
-
 - multi-dataset implementation
-- repair-state definition
+- mature repair-state definition
 - candidate control-layer separation
 - transition-oriented logic
 - intervention-oriented prioritization structure
 
 ## Why this matters
 
-The project is not only framed as a thesis about neural state control. It already contains an evidence layer showing how that thesis is being operationalized through datasets, signatures, candidate architecture, and transition logic.
+This folder is meant to make the project verifiable. It shows that Programmable Neurorepair already has operational artifacts rather than only a conceptual thesis.
