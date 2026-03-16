@@ -164,12 +164,7 @@ Programmable Neurorepair already includes a visible operational layer rather tha
 ### Why this matters
 
 The project is not only arguing that neural state transitions should be modeled differently. It already contains the first operational layers of that approach: state-structure derivation, repair-state definition, candidate control-layer separation, and transition-oriented intervention logic.
-
-### Current dataset roles
-
-- **Dataset A** — primary derivation dataset for repair-state structure and oligodendrocyte-lineage modeling  
-- **Dataset B** — independent transfer-oriented validation under perturbation-relevant conditions  
-- **Dataset C** — WT recovery-order support for biological consistency  
+  
 
 ### Current outputs
 
@@ -178,16 +173,6 @@ The project is not only arguing that neural state transitions should be modeled 
 - transition-model logic implemented  
 - intervention-oriented prioritization framework implemented  
 - cross-dataset directional consistency established  
-
-### Evidence table
-
-| Component | Current evidence |
-|---|---|
-| Repair-state structure | oligodendrocyte-lineage progression modeled across datasets |
-| Repair-state signature | curated mature repair-state program derived |
-| Candidate prioritization | leverage / support / signaling layers identified |
-| Transition logic | state-shift / repair-probability modeling implemented |
-| Cross-dataset support | directional consistency across distinct biological contexts |
 
 ## Long-term vision
 
