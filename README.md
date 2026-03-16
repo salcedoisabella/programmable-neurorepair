@@ -30,3 +30,65 @@ This allows the system to identify genes associated with the probability of cell
 # Repair-State Signature
 
 The current repair-state program includes genes strongly associated with mature oligodendrocyte function and remyelination:
+Mal
+Cldn11
+Plp1
+Mog
+Mobp
+Mbp
+Mag
+Cnp
+Abca2
+Tspan2
+Ptgds
+Myrf
+These genes define the mature repair-state signature used by the engine to classify cellular states.
+
+---
+
+# Candidate Molecular Control Nodes
+
+Initial analyses highlight several candidate control layers associated with remyelinating states:
+
+**Flagship repair-state lever**
+- Tspan2
+
+**Repair architecture genes**
+- Gjc2
+- Fa2h
+- Aspa
+
+**Signaling and regulatory candidates**
+- Ptgds
+- Ptprd
+
+These genes represent potential molecular levers influencing the probability of oligodendrocyte maturation and myelin repair.
+
+---
+
+# Engine Components
+
+Current system components include:
+
+- repair-state signature derivation
+- cross-dataset validation
+- candidate control node prioritization
+- transition modeling
+- intervention simulation (v1)
+
+---
+
+# Vision
+
+Programmable Neurorepair is designed as a general framework for mapping and guiding neural cell-state transitions.
+
+Remyelination is the first tractable test case, but the broader objective is to extend the system toward additional neural cell types and state dynamics across the central nervous system.
+
+The long-term goal is to build computational systems capable of identifying molecular control points that govern neural plasticity, repair, and adaptation.
+
+---
+## Repository Structure
+
+- `figures/` — visual outputs  
+- `results/` — model outputs and tables  
+- `docs/` — technical notes and summaries
