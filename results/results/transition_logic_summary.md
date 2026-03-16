@@ -67,3 +67,7 @@ It matters because it allows the project to begin modeling:
 - how repair can be interpreted as movement across states rather than as a fixed molecular label
 
 This is still early, but it is already more than a static analysis pipeline. It is the beginning of a framework for treating neural repair as a controllable state-transition problem.
+## Related artifacts
+
+- [Current outputs snapshot](current_outputs_snapshot.md)
+- [Current candidate ranking CSV](current_candidate_ranking.csv)
