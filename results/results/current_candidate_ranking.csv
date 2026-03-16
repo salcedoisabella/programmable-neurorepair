@@ -1,0 +1,8 @@
+candidate,layer,current_role,current_status,current_interpretation
+Tspan2,flagship_repair_state_lever,repair-state access leverage,prioritized,closest current candidate to a flagship repair-state lever
+Gjc2,repair_architecture_support,architecture/stabilization support,prioritized,supports mature repair-state structure
+Fa2h,repair_architecture_support,lipid/myelin support,prioritized,supports mature repair-state progression
+Aspa,repair_architecture_support,metabolic support,prioritized,supports repair-associated maturation structure
+Abca2,repair_architecture_support,membrane/lipid transport support,prioritized,supports repair-state architecture
+Ptgds,signaling_control,signaling/control candidate,prioritized,may participate in signaling-facing transition logic
+Ptprd,signaling_control,control-oriented candidate,prioritized,may participate in regulatory / transition-facing roles
