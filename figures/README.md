@@ -22,9 +22,9 @@ These figures will visualize how oligodendrocyte-lineage cells distribute across
 
 Examples:
 
-- demyelination vs normal vs remyelination state gradients  
-- mature-vs-precursor enrichment patterns  
-- lineage-specific repair-state structure  
+- demyelination vs normal vs remyelination state gradients
+- mature-vs-precursor enrichment patterns
+- lineage-specific repair-state structure
 
 ### 2. Cross-dataset validation figures
 
@@ -32,9 +32,9 @@ These figures will show whether repair-associated patterns remain directionally 
 
 Examples:
 
-- dataset transfer validation  
-- condition-level ordering of repair states  
-- cross-dataset candidate consistency  
+- dataset transfer validation
+- condition-level ordering of repair states
+- cross-dataset candidate consistency
 
 ### 3. Candidate prioritization figures
 
@@ -42,10 +42,10 @@ These figures will summarize the molecular control architecture identified by th
 
 Examples:
 
-- flagship lever candidates  
-- repair architecture genes  
-- signaling/control candidates  
-- intervention ranking outputs  
+- flagship lever candidates
+- repair architecture genes
+- signaling/control candidates
+- intervention ranking outputs
 
 ### 4. Transition-engine figures
 
@@ -53,9 +53,9 @@ These figures will visualize how candidate perturbations are predicted to shift 
 
 Examples:
 
-- intervention ranking  
-- delta-probability plots  
-- candidate-specific state-shift simulations  
+- intervention ranking
+- delta-probability plots
+- candidate-specific state-shift simulations
 
 ## Why this matters
 
