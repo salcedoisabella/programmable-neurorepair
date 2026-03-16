@@ -50,11 +50,18 @@ The current repair-state signature has already enabled:
 
 ---
 
+## Related artifact
+
+- [Repair signature CSV](repair_signature_genes.csv)
+
+---
+
 ## Why this matters
 
 The repair signature is one of the clearest pieces of visible evidence that the project is operational.
 
 It allows the framework to move beyond generic single-cell state description and into a more structured system for:
+
 - defining repair-associated states
 - modeling progression between them
 - identifying candidate control architecture
