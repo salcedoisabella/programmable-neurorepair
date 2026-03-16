@@ -9,14 +9,17 @@
 ## Engine architecture
 
 ```mermaid
-flowchart LR
-    A[Single-cell datasets] --> B[State mapping]
+flowchart TD
+    A[Single-cell neural datasets] --> B[State mapping]
     B --> C[Repair-state signature]
-    C --> D[Candidate control nodes]
+    C --> D[Candidate molecular control nodes]
     D --> E[Transition modeling]
     E --> F[Intervention simulation]
-```
 
+    F --> G[Module 1: remyelination]
+    F --> H[Future modules: inflammatory-state control]
+    F --> I[Future modules: neural adaptation]
+```
 Programmable Neurorepair is a computational engine for mapping neural cell-state transitions and identifying molecular control points that can shift cells toward regenerative or functional states.
 
 The project is motivated by a broader question: how can neural systems move from being highly observable to becoming more predictable, interpretable, and eventually guideable? The current proof of concept focuses on remyelination, using single-cell transcriptomic data to model how oligodendrocyte-lineage cells move between precursor-like and mature repair states.
