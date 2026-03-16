@@ -138,19 +138,21 @@ The first version has been developed across multiple independent datasets and is
 ---
 ## Current evidence
 
-Programmable Neurorepair already contains an operational evidence layer rather than only a conceptual project description. The current framework has been implemented across multiple single-cell datasets and already produces structured outputs that support the broader neural-state-control thesis.
+## Current evidence
 
-### Evidence currently visible in the project
+Programmable Neurorepair already includes an operational evidence layer rather than only a conceptual project description. The current framework has been implemented across multiple single-cell datasets and already produces visible artifacts that support the broader neural-state-control thesis.
 
-- **Dataset A** functions as the primary derivation and state-structure dataset for oligodendrocyte-lineage modeling
-- **Dataset B** provides an independent transfer-oriented validation layer under perturbation-relevant conditions
-- **Dataset C** adds WT recovery-order support for biological consistency
-- a **curated mature repair-state signature** has already been derived
-- **candidate control layers** have already been separated into leverage, support, and signaling / control categories
-- **transition-oriented logic** has already been implemented to estimate repair-state shift potential
-- the framework already shows **directional consistency across distinct biological contexts**
+### Evidence artifacts
 
-### Current evidence table
+- [Dataset roles](results/dataset_roles.md)
+- [Repair signature genes](results/repair_signature_genes.md)
+- [Candidate control layers](results/candidate_control_layers.md)
+- [Transition logic summary](results/transition_logic_summary.md)
+- [Current outputs snapshot](results/current_outputs_snapshot.md)
+- [Current candidate ranking (CSV)](results/current_candidate_ranking.csv)
+- [Repair signature (CSV)](results/repair_signature_genes.csv)
+
+### Current operational status
 
 | Evidence layer | Current status |
 |---|---|
@@ -160,6 +162,10 @@ Programmable Neurorepair already contains an operational evidence layer rather t
 | Transition-oriented logic | implemented |
 | Cross-dataset directional support | established |
 | Intervention-oriented prioritization | implemented |
+
+### Why this matters
+
+The project is not only arguing that neural state transitions should be modeled differently. It already contains the first operational layers of that approach: state-structure derivation, repair-state definition, candidate control-layer separation, and transition-oriented intervention logic.
 
 ### Why this matters
 
