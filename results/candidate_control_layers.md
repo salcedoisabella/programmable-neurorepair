@@ -52,6 +52,7 @@ and toward:
 - structured state-transition modeling
 - candidate control architecture
 - tractable intervention logic
-## Related artifact
+## Related artifacts
 
 - [Current candidate ranking CSV](current_candidate_ranking.csv)
+- [Current outputs snapshot](current_outputs_snapshot.md)
