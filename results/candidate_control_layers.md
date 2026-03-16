@@ -1,6 +1,12 @@
 # Candidate Control Layers
 
-Current analyses in Programmable Neurorepair suggest that remyelination is not governed by a single marker or pathway, but by a more distributed control architecture composed of multiple functional layers.
+## Purpose
+
+This file summarizes the current candidate control-layer structure identified by Programmable Neurorepair.
+
+One of the most important early outputs of the project is that remyelination does not appear to behave like a single-pathway story. Instead, the current framework suggests a more distributed architecture composed of multiple functional layers.
+
+---
 
 ## Current candidate layers
 
@@ -17,10 +23,32 @@ Current analyses in Programmable Neurorepair suggest that remyelination is not g
 - Ptgds
 - Ptprd
 
-## Interpretation
+---
 
-Rather than reducing repair to one dominant signal, the framework begins to separate distinct roles within the transition process. These candidate layers are early evidence that neural repair may be computationally decomposable into leverage, support, and signaling/control functions.
+## Current interpretation
+
+Rather than collapsing repair into one dominant marker or pathway, the framework begins to resolve distinct roles within the transition process.
+
+At the current stage, the project already supports an early separation between:
+
+- **leverage-like nodes** that appear closely associated with repair-state access
+- **architecture / support components** that appear linked to stabilizing or supporting mature repair structure
+- **signaling / control candidates** that may participate in regulatory or transition-facing roles
+
+---
 
 ## Why this matters
 
-This is one of the most important early outputs of the project because it reframes remyelination as a structured state-transition problem with identifiable candidate control layers, rather than as a static list of associated genes.
+This is one of the most important early conceptual results in the project.
+
+It suggests that neural repair may be computationally decomposable into distinct layers of control rather than treated as a single undifferentiated phenotype.
+
+That matters because it moves the project beyond:
+- static association
+- generic gene-list interpretation
+- single-marker narratives
+
+and toward:
+- structured state-transition modeling
+- candidate control architecture
+- tractable intervention logic
