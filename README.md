@@ -23,25 +23,27 @@ The framework analyzes single-cell transcriptomic datasets to model transitions 
 - precursor-like oligodendrocyte states
 - mature oligodendrocyte repair states
 
-This allows the system to identify genes associated with the probability of cells entering a remyelinating state.
+This allows the system to identify molecular control points associated with the probability of cells entering a remyelinating state.
 
 ---
 
 # Repair-State Signature
 
 The current repair-state program includes genes strongly associated with mature oligodendrocyte function and remyelination:
-Mal
-Cldn11
-Plp1
-Mog
-Mobp
-Mbp
-Mag
-Cnp
-Abca2
-Tspan2
-Ptgds
-Myrf
+
+- Mal
+- Cldn11
+- Pll1
+- Mog
+- Mobp
+- Mbp
+- Mag
+- Cnp
+- Abca2
+- Tspan2
+- Ptgds
+- Myrf
+
 These genes define the mature repair-state signature used by the engine to classify cellular states.
 
 ---
@@ -84,9 +86,10 @@ Programmable Neurorepair is designed as a general framework for mapping and guid
 
 Remyelination is the first tractable test case, but the broader objective is to extend the system toward additional neural cell types and state dynamics across the central nervous system.
 
-The long-term goal is to build computational systems capable of identifying molecular control points that govern neural plasticity, repair, and adaptation.
+The long-term goal is to build computational systems capable of identifying molecular control points that govern neural plasticity, repair, and adaptation, and eventually make neural state transitions more predictable and guideable.
 
 ---
+
 ## Repository Structure
 
 - `figures/` — visual outputs  
