@@ -50,9 +50,10 @@ The current repair-state signature has already enabled:
 
 ---
 
-## Related artifact
+## Related artifacts
 
 - [Repair signature CSV](repair_signature_genes.csv)
+- [Current outputs snapshot](current_outputs_snapshot.md)
 
 ---
 
