@@ -138,7 +138,32 @@ The first version has been developed across multiple independent datasets and is
 ---
 ## Current evidence
 
-The current version of Programmable Neurorepair already includes multiple visible outputs that support the framework as an operational computational project rather than only a conceptual direction.
+Programmable Neurorepair already contains an operational evidence layer rather than only a conceptual project description. The current framework has been implemented across multiple single-cell datasets and already produces structured outputs that support the broader neural-state-control thesis.
+
+### Evidence currently visible in the project
+
+- **Dataset A** functions as the primary derivation and state-structure dataset for oligodendrocyte-lineage modeling
+- **Dataset B** provides an independent transfer-oriented validation layer under perturbation-relevant conditions
+- **Dataset C** adds WT recovery-order support for biological consistency
+- a **curated mature repair-state signature** has already been derived
+- **candidate control layers** have already been separated into leverage, support, and signaling / control categories
+- **transition-oriented logic** has already been implemented to estimate repair-state shift potential
+- the framework already shows **directional consistency across distinct biological contexts**
+
+### Current evidence table
+
+| Evidence layer | Current status |
+|---|---|
+| State-structure derivation | implemented |
+| Mature repair-state signature | derived |
+| Candidate control-layer separation | implemented |
+| Transition-oriented logic | implemented |
+| Cross-dataset directional support | established |
+| Intervention-oriented prioritization | implemented |
+
+### Why this matters
+
+The project is not only arguing that neural state transitions should be modeled differently. It already contains the first operational layers of that approach: state-structure derivation, repair-state definition, candidate control-layer separation, and transition-oriented intervention logic.
 
 ### Current dataset roles
 
