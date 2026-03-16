@@ -64,3 +64,6 @@ It means the framework is already being built to:
 - move beyond one isolated source of signal
 
 That is essential if the project is going to become a serious platform for modeling neural state transitions rather than a one-off analysis.
+## Related artifacts
+
+- [Current outputs snapshot](current_outputs_snapshot.md)
