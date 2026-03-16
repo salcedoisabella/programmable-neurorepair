@@ -138,9 +138,7 @@ The first version has been developed across multiple independent datasets and is
 ---
 ## Current evidence
 
-## Current evidence
-
-Programmable Neurorepair already includes an operational evidence layer rather than only a conceptual project description. The current framework has been implemented across multiple single-cell datasets and already produces visible artifacts that support the broader neural-state-control thesis.
+Programmable Neurorepair already includes a visible operational layer rather than only a conceptual project description. The framework has been implemented across multiple single-cell datasets and already produces artifacts that support the broader neural-state-control thesis.
 
 ### Evidence artifacts
 
@@ -162,10 +160,6 @@ Programmable Neurorepair already includes an operational evidence layer rather t
 | Transition-oriented logic | implemented |
 | Cross-dataset directional support | established |
 | Intervention-oriented prioritization | implemented |
-
-### Why this matters
-
-The project is not only arguing that neural state transitions should be modeled differently. It already contains the first operational layers of that approach: state-structure derivation, repair-state definition, candidate control-layer separation, and transition-oriented intervention logic.
 
 ### Why this matters
 
