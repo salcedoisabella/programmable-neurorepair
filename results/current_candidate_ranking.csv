@@ -1,8 +1,9 @@
-candidate,layer,current_role,current_status,current_interpretation
-Tspan2,flagship_repair_state_lever,repair-state access leverage,prioritized,closest current candidate to a flagship repair-state lever
-Gjc2,repair_architecture_support,architecture/stabilization support,prioritized,supports mature repair-state structure
-Fa2h,repair_architecture_support,lipid/myelin support,prioritized,supports repair-state progression
-Aspa,repair_architecture_support,metabolic support,prioritized,supports repair-associated maturation structure
-Abca2,repair_architecture_support,membrane/lipid transport support,prioritized,supports repair-state architecture
-Ptgds,signaling_control,signaling/control candidate,prioritized,may participate in signaling-facing transition logic
-Ptprd,signaling_control,control-oriented candidate,prioritized,may participate in regulatory or transition-facing roles
+candidate,transition_rank,mean_delta_prob_mature,median_delta_prob_mature,positive_shift_fraction,logistic_coef,project_role,intervention_mode,transition_shift_label,current_interpretation
+Aspa,1,0.230411,0.223381,0.999804,1.664824,repair_support_gene,support_or_increase,very_high_transition_shift,strongest current repair-support transition candidate
+Fa2h,2,0.171344,0.153782,0.999804,1.293429,repair_support_gene,support_or_increase,very_high_transition_shift,strong repair-support candidate with high mature-state shift potential
+Tspan2,3,0.127475,0.107847,0.999804,1.002286,flagship_lever,activate,very_high_transition_shift,closest current candidate to a flagship repair-state lever
+Abca2,4,0.071426,0.056625,0.999804,0.598384,repair_support_gene,support_or_increase,high_transition_shift,repair-architecture support candidate with meaningful shift potential
+Ptprd,5,0.054155,0.042077,0.999804,0.463977,control_node_candidate,modulate,moderate_transition_shift,control-oriented candidate with moderate transition relevance
+Gjc2,6,0.029815,0.022731,0.999787,0.264312,repair_architecture_candidate,stabilize_or_increase,modest_transition_shift,architecture/stabilization candidate with positive mature-state association
+Ptgds,7,0.002556,0.002006,0.999697,0.023629,signaling_candidate,modulate_or_activate,low_transition_shift,signaling-facing candidate with lower direct shift magnitude
+Qk,8,-0.001459,-0.001155,0.000000,-0.013582,broad_state_regulator,modulate,low_transition_shift,broader regulator appearing in rankings but not currently prioritized as a direct repair-state lever
