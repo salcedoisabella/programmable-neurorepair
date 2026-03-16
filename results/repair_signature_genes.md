@@ -1,9 +1,15 @@
 # Repair Signature Genes
 
 ## Purpose
+
 This file defines the current mature repair-state program used by Programmable Neurorepair as an operational signature for oligodendrocyte-lineage state modeling.
 
-## Current signature
+This is not only a descriptive gene list. It is one of the core functional layers of the current engine.
+
+---
+
+## Current mature repair-state signature
+
 - Mal
 - Cldn11
 - Plp1
@@ -17,20 +23,39 @@ This file defines the current mature repair-state program used by Programmable N
 - Ptgds
 - Myrf
 
-## Role in the current engine
+---
+
+## Current role in the engine
+
 This signature is currently used to:
 
 - define mature repair-state structure
 - distinguish precursor-like vs mature repair-oriented states
-- support candidate control-layer discovery
-- anchor transition-oriented modeling of repair-state probability
+- support repair-state scoring logic
+- anchor candidate control-layer discovery
+- support transition-oriented modeling of repair-state probability
 - support cross-dataset directional consistency analysis
 
-## Current downstream outputs supported by this signature
+---
+
+## What this signature has already enabled
+
+The current repair-state signature has already enabled:
+
 - mature repair-state derivation
-- candidate leverage / support / signaling layers
+- structured separation of candidate control layers
 - transition-oriented intervention logic
-- repair-state probability framework
+- early repair-state probability modeling
+- operational downstream interpretation of remyelination as a state-transition problem
+
+---
 
 ## Why this matters
-The repair signature is not only a descriptive gene list. It functions as one of the core operational layers of the current engine, allowing the framework to move from generic state description toward structured modeling of repair-state progression and tractable intervention points.
+
+The repair signature is one of the clearest pieces of visible evidence that the project is operational.
+
+It allows the framework to move beyond generic single-cell state description and into a more structured system for:
+- defining repair-associated states
+- modeling progression between them
+- identifying candidate control architecture
+- estimating where intervention may become tractable
