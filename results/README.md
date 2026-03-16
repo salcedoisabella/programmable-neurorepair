@@ -22,25 +22,25 @@ These results define the molecular program associated with mature oligodendrocyt
 
 Current repair-state genes include:
 
-- Mal  
-- Cldn11  
-- Plp1  
-- Mog  
-- Mobp  
-- Mbp  
-- Mag  
-- Cnp  
-- Abca2  
-- Tspan2  
-- Ptgds  
-- Myrf  
+- Mal
+- Cldn11
+- Plp1
+- Mog
+- Mobp
+- Mbp
+- Mag
+- Cnp
+- Abca2
+- Tspan2
+- Ptgds
+- Myrf
 
 ### Candidate control-node outputs
 
 These results summarize the molecular candidates most strongly associated with repair-state transitions.
 
 | Layer | Examples |
-|------|------|
+|---|---|
 | Flagship repair-state lever | Tspan2 |
 | Repair architecture / support | Gjc2, Fa2h, Aspa, Abca2 |
 | Signaling / control | Ptgds, Ptprd |
@@ -51,10 +51,10 @@ These results summarize how candidate perturbations are predicted to shift the p
 
 Typical outputs include:
 
-- logistic coefficients  
-- candidate transition leverage  
-- intervention ranking  
-- simulated state-shift effects  
+- logistic coefficients
+- candidate transition leverage
+- intervention ranking
+- simulated state-shift effects
 
 ## Current status
 
