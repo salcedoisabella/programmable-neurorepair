@@ -1,9 +1,9 @@
 # Repair Signature Genes
 
-The current mature repair-state program used by Programmable Neurorepair includes genes associated with oligodendrocyte maturation and remyelination-supporting states.
+## Purpose
+This file defines the current mature repair-state program used by Programmable Neurorepair as an operational signature for oligodendrocyte-lineage state modeling.
 
-## Current repair-state genes
-
+## Current signature
 - Mal
 - Cldn11
 - Plp1
@@ -17,10 +17,20 @@ The current mature repair-state program used by Programmable Neurorepair include
 - Ptgds
 - Myrf
 
-## Interpretation
+## Role in the current engine
+This signature is currently used to:
 
-This signature is used by the framework to define mature repair-state structure and support transition-oriented modeling of oligodendrocyte-lineage progression.
+- define mature repair-state structure
+- distinguish precursor-like vs mature repair-oriented states
+- support candidate control-layer discovery
+- anchor transition-oriented modeling of repair-state probability
+- support cross-dataset directional consistency analysis
+
+## Current downstream outputs supported by this signature
+- mature repair-state derivation
+- candidate leverage / support / signaling layers
+- transition-oriented intervention logic
+- repair-state probability framework
 
 ## Why this matters
-
-The repair signature is one of the core operational outputs of the current engine. It provides a concrete molecular program that allows the system to move beyond generic state description and into more structured modeling of repair-state probability, candidate control layers, and intervention-oriented logic.
+The repair signature is not only a descriptive gene list. It functions as one of the core operational layers of the current engine, allowing the framework to move from generic state description toward structured modeling of repair-state progression and tractable intervention points.
