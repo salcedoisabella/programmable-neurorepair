@@ -150,6 +150,10 @@ Programmable Neurorepair already includes a visible operational layer rather tha
 - [Current candidate ranking (CSV)](results/current_candidate_ranking.csv)
 - [Repair signature (CSV)](results/repair_signature_genes.csv)
 
+## Evidence snapshot
+
+![Operational Evidence Layer](figures/programmable_neurorepair_operational_evidence_layer_FINAL_fixed.png)
+
 ### Current operational status
 
 | Evidence layer | Current status |
