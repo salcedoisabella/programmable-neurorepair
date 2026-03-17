@@ -168,15 +168,6 @@ Programmable Neurorepair already includes a visible operational layer rather tha
 ### Why this matters
 
 The project is not only arguing that neural state transitions should be modeled differently. It already contains the first operational layers of that approach: state-structure derivation, repair-state definition, candidate control-layer separation, and transition-oriented intervention logic.
-  
-
-### Current outputs
-
-- curated mature repair-state signature derived  
-- candidate molecular control layers identified  
-- transition-model logic implemented  
-- intervention-oriented prioritization framework implemented  
-- cross-dataset directional consistency established  
 
 ## Long-term vision
 
