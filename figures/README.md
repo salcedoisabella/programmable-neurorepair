@@ -1,62 +1,23 @@
 # Figures
 
-This folder contains the visual layer of the Programmable Neurorepair engine.
+This folder contains the visual evidence layer of Programmable Neurorepair.
 
-The purpose of this layer is to make the logic of the framework interpretable at a glance: how neural cell states are organized, how repair-associated programs emerge, and which molecular control points appear most relevant.
+Its purpose is to make the project legible not only through prose and result files, but also through compact visual artifacts that summarize the current computational framework, datasets, outputs, and interpretation.
 
-## Figure logic
+## Current figure
 
-```mermaid
-flowchart TD
-    A[Single-cell datasets] --> B[State mapping]
-    B --> C[Repair-state structure]
-    C --> D[Candidate control nodes]
-    D --> E[Intervention and transition modeling]
-```
+- [Operational Evidence Layer](programmable_neurorepair_operational_evidence_layer_FINAL_fixed.png)
 
-## Planned figure categories
+## What this figure currently shows
 
-### 1. State landscape figures
-
-These figures will visualize how oligodendrocyte-lineage cells distribute across precursor-like and mature repair states under different biological conditions.
-
-Examples:
-
-- demyelination vs normal vs remyelination state gradients
-- mature-vs-precursor enrichment patterns
-- lineage-specific repair-state structure
-
-### 2. Cross-dataset validation figures
-
-These figures will show whether repair-associated patterns remain directionally consistent across independent datasets.
-
-Examples:
-
-- dataset transfer validation
-- condition-level ordering of repair states
-- cross-dataset candidate consistency
-
-### 3. Candidate prioritization figures
-
-These figures will summarize the molecular control architecture identified by the engine.
-
-Examples:
-
-- flagship lever candidates
-- repair architecture genes
-- signaling/control candidates
-- intervention ranking outputs
-
-### 4. Transition-engine figures
-
-These figures will visualize how candidate perturbations are predicted to shift the probability of mature repair states.
-
-Examples:
-
-- intervention ranking
-- delta-probability plots
-- candidate-specific state-shift simulations
+- the project’s core thesis
+- Dataset A / B / C roles
+- the current engine structure
+- quantitative transition evidence
+- biological evidence already recovered
+- candidate control architecture
+- why the current system already exceeds a purely descriptive analysis
 
 ## Why this matters
 
-The figure layer is designed to turn high-dimensional single-cell analysis into interpretable visual representations of neural state transitions and candidate intervention logic.
+Programmable Neurorepair is not only a narrative about neural state control. It already has a visible evidence figure showing that the project contains a real scientific structure, real outputs, and a non-trivial computational interpretation of neural repair.
