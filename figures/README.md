@@ -1,23 +1,20 @@
 # Figures
 
-This folder contains the visual evidence layer of Programmable Neurorepair.
+This folder contains the current visual evidence layer for Programmable Neurorepair.
 
-Its purpose is to make the project legible not only through prose and result files, but also through compact visual artifacts that summarize the current computational framework, datasets, outputs, and interpretation.
+The goal is not to sketch future visuals, but to show the strongest artifacts already produced by the first wedge of the framework.
 
-## Current figure
+## Current figures
 
-- [Operational Evidence Layer](programmable_neurorepair_operational_evidence_layer_FINAL_fixed.png)
+### Figure 1 — Dataset A reveals a stable repair-state gradient
+Shows the internal repair-state structure in Dataset A, combining condition ordering with OPC/Oligo composition.
 
-## What this figure currently shows
+### Figure 2 — The framework transfers beyond the derivation dataset
+Shows external directional support in Dataset B, where the transferred framework recovers the ordering WT > PLP_iCKO > Sox10_iCKO.
 
-- the project’s core thesis
-- Dataset A / B / C roles
-- the current engine structure
-- quantitative transition evidence
-- biological evidence already recovered
-- candidate control architecture
-- why the current system already exceeds a purely descriptive analysis
+### Figure 3 — Programmable Neurorepair moves from evidence to intervention logic
+Shows how Dataset A, Dataset B, and the safety layer combine into Engine v1 and produce prioritized targets, readout outputs, and robustness evidence.
 
 ## Why this matters
 
-Programmable Neurorepair is not only a narrative about neural state control. It already has a visible evidence figure showing that the project contains a real scientific structure, real outputs, and a non-trivial computational interpretation of neural repair.
+These figures are the visible evidence layer of Programmable Neurorepair. They show that the project is already producing non-trivial outputs beyond a conceptual thesis.
