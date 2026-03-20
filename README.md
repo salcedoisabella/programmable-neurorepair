@@ -118,7 +118,7 @@ The first wedge has already produced a visible evidence layer rather than only a
 - cross-dataset directional support established
 - intervention-oriented prioritization implemented
 
-### Why this matters
+### Operational significance
 
 Programmable Neurorepair is not only arguing that neural state transitions should be modeled differently. It already contains the first operational layers of that approach: state-structure derivation, repair-state definition, candidate control-layer separation, and transition-oriented intervention logic.
 
