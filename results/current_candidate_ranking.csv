@@ -1,9 +1,194 @@
-candidate,transition_rank,mean_delta_prob_mature,median_delta_prob_mature,positive_shift_fraction,logistic_coef,project_role,intervention_mode,transition_shift_label,current_interpretation
-Aspa,1,0.230411,0.223381,0.999804,1.664824,repair_support_gene,support_or_increase,very_high_transition_shift,strongest current repair-support transition candidate
-Fa2h,2,0.171344,0.153782,0.999804,1.293429,repair_support_gene,support_or_increase,very_high_transition_shift,strong repair-support candidate with high mature-state shift potential
-Tspan2,3,0.127475,0.107847,0.999804,1.002286,flagship_lever,activate,very_high_transition_shift,closest current candidate to a flagship repair-state lever
-Abca2,4,0.071426,0.056625,0.999804,0.598384,repair_support_gene,support_or_increase,high_transition_shift,repair-architecture support candidate with meaningful shift potential
-Ptprd,5,0.054155,0.042077,0.999804,0.463977,control_node_candidate,modulate,moderate_transition_shift,control-oriented candidate with moderate transition relevance
-Gjc2,6,0.029815,0.022731,0.999787,0.264312,repair_architecture_candidate,stabilize_or_increase,modest_transition_shift,architecture/stabilization candidate with positive mature-state association
-Ptgds,7,0.002556,0.002006,0.999697,0.023629,signaling_candidate,modulate_or_activate,low_transition_shift,signaling-facing candidate with lower direct shift magnitude
-Qk,8,-0.001459,-0.001155,0.000000,-0.013582,broad_state_regulator,modulate,low_transition_shift,broader regulator appearing in rankings but not currently prioritized as a direct repair-state lever
+# Current Candidate Ranking
+
+## Purpose
+
+This document explains how to interpret `current_candidate_ranking.csv` in the current version of **Programmable Neurorepair**.
+
+The ranking remains useful, but it should no longer be read as the main output of the project or as a complete summary of what the system now is.
+
+It is best understood as an earlier and still informative layer inside a much broader architecture.
+
+## What the ranking is
+
+`current_candidate_ranking.csv` captures an earlier but important project layer: a structured ranking of candidate genes or control-relevant features associated with the repair-oriented side of the system.
+
+At the time this ranking was most central, it helped answer questions like:
+
+- which candidates most strongly align with repair-compatible logic
+- which candidates appear repeatedly important across the project’s internal analysis
+- which candidates may matter for later transition or control interpretation
+
+This made the ranking a useful early synthesis layer.
+
+## Why the ranking mattered
+
+The ranking mattered because it helped the project move beyond a purely descriptive single-cell readout.
+
+It gave the project:
+
+- an early prioritization layer
+- a more compact molecular summary
+- a way to distinguish stronger from weaker candidate relevance
+- a bridge toward candidate control interpretation
+
+Without this layer, the project would have had a weaker basis for moving from raw state description toward more organized molecular interpretation.
+
+## Why the ranking is no longer enough on its own
+
+The project has now moved beyond a ranking-centric stage.
+
+What now exists is broader than a candidate list. The project now includes:
+
+- a repair-state map
+- a dominant repair-compatible basin
+- intermediate / review-like structure
+- boundary / frontier logic
+- a minimal push-anchor-support architecture
+- an integrated stack family
+- first-pass external validation support
+- an intervention-facing layer
+- a ranked validation-preparation ladder
+
+That means `current_candidate_ranking.csv` should now be read as one layer inside a larger system, not as the project’s final or most important output.
+
+## How the ranking should be read now
+
+The ranking is best understood as:
+
+- a **candidate prioritization layer**
+- a **supporting molecular interpretation layer**
+- a **historical bridge** between the earlier repair-signature phase and the later architecture phase
+- **not** the full logic of the project
+
+In other words:
+
+- the ranking helps show which candidates mattered
+- the architecture helps show how some of those roles differ
+- the stack and intervention layers help show how that logic becomes operational
+
+## Relation to the minimal architecture
+
+The current minimal architecture is:
+
+- **Tspan2 = push**
+- **Ptprd = anchor**
+- **Aspa = support**
+
+This architecture should not be confused with a flat ranking.
+
+A ranking answers:
+
+- which candidates appear strong or recurrent
+
+An architecture answers:
+
+- what distinct role each candidate may be playing in the state-transition problem
+
+That distinction is important.
+
+The project is now stronger because it moved from:
+- ranking candidates
+
+toward:
+- deriving non-redundant control roles
+
+## Relation to the repair signature
+
+The ranking also should not be confused with the repair signature.
+
+The repair signature summarizes the molecular profile of the dominant repair-compatible state.
+
+The ranking helps prioritize candidates associated with repair-oriented logic.
+
+Those are related, but not identical tasks.
+
+## Relation to candidate control layers
+
+The ranking was an important input into the later control-layer reading, but the current control-layer framework is more structured.
+
+The project now distinguishes between:
+
+- **push**
+- **anchor**
+- **support**
+
+This means the current system is no longer best read as “the top candidates are simply the most important in one generic sense.”
+
+Instead, some candidates matter because they:
+
+- open movement
+- stabilize commitment
+- support consolidation
+- or organize state quality in different ways
+
+## Relation to stack and program logic
+
+The ranking also now sits underneath later project layers.
+
+It is no longer the operational top layer.
+
+The current operational layers include:
+
+- `default_safe_stack`
+- `balanced_analysis_stack`
+- `boundary_probe_stack`
+- `maximum_rescue_probe_stack`
+
+and intervention-facing programs:
+
+- `default_safe_translation_program`
+- `balanced_state_transition_program`
+- `boundary_probe_program`
+- `maximum_rescue_program`
+
+That means the ranking should now be read as an input into the broader logic, not as the project’s main output.
+
+## External support and the ranking
+
+The project’s strongest current external support does not come from the ranking alone.
+
+It now comes from:
+
+- Dataset B as the main first-pass external benchmark
+- Dataset C as supportive mixed triangulation
+
+This matters because the project is no longer only saying “these candidates rank highly.” It is also asking whether the broader architecture and state logic survive externally.
+
+## What this ranking still supports
+
+The ranking still supports the claim that:
+
+- some candidates are more central than others
+- the repair-oriented side of the system has a more structured molecular prioritization
+- the project did not emerge from random marker choice
+- the later architecture and control layers had a meaningful earlier prioritization base
+
+## What this ranking does not support
+
+The ranking does **not** support the claim that:
+
+- ranking alone explains the whole project
+- the top-ranked candidates alone are sufficient to define control logic
+- a flat ranking is equivalent to a minimal architecture
+- the ranking alone proves mechanism or therapeutic relevance
+- the ranking is the most mature current reading of the project
+
+## Current interpretation
+
+The strongest current reading is:
+
+**`current_candidate_ranking.csv` remains a useful prioritization artifact, but the project has now moved beyond a ranking-centric stage into a broader architecture, stack, intervention, and validation framework.**
+
+## Related files
+
+See also:
+
+- `current_candidate_ranking.csv`
+- `current_outputs_snapshot.md`
+- `candidate_control_layers.md`
+- `repair_signature_genes.md`
+- `transition_logic_summary.md`
+- `dataset_roles.md`
+- `../docs/PROJECT_OVERVIEW.md`
+- `../docs/SYSTEM_STACKS.md`
+- `../docs/INTERVENTION_LAYER.md`
