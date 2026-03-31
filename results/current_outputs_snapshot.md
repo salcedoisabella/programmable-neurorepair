@@ -2,162 +2,170 @@
 
 ## Purpose
 
-This file provides a compact evidence-layer summary of the current operational outputs already implemented in Programmable Neurorepair.
+This document provides a concise snapshot of what **Programmable Neurorepair** currently contains.
 
-The goal is to show, in one place, what has already been built, what datasets currently support the framework, and which non-trivial outputs already exist beyond the project thesis itself.
+It is meant to answer a simple question:
 
----
+**What now exists in the project, at its current stage?**
 
-## Core framing
+This is no longer only an early remyelination analysis. The project has evolved into a more structured system that now includes state structure, control architecture, external support, intervention-facing logic, and validation preparation.
 
-Programmable Neurorepair is being built as the first computational wedge into neural state control.
+## Current project reading
 
-The current proof of concept focuses on remyelination as a tractable first system for modeling:
+The strongest current reading is:
 
-- distinct neural state progression
-- candidate molecular control architecture
-- transition-oriented logic
-- intervention-relevant state-shift potential
+**a serious first computational wedge into neural state control, starting with remyelination and oligodendrocyte-lineage repair.**
 
----
+The current wedge is remyelination, but the deeper direction is broader. The project is now better understood as an attempt to move from state mapping to transition logic, from transition logic to minimal control architecture, and from architecture to intervention-facing programs and validation logic.
 
-## Current dataset roles
+## Core outputs now in place
 
-| Dataset | Current role | What it currently supports |
-|---|---|---|
-| **Dataset A (GSE204755)** | Primary derivation / state-structure sandbox | oligodendrocyte-lineage modeling, repair-state derivation, candidate discovery, transition-oriented modeling foundation |
-| **Dataset B (GSE243788)** | Transfer-oriented validation | directional consistency testing in an independent perturbation-relevant context |
-| **Dataset C** | WT recovery-order support | biological consistency and recovery-order support for the broader remyelination progression framework |
+The project now includes:
 
----
+- a repair-state map
+- a dominant repair-compatible basin
+- intermediate / review-like structure
+- boundary / frontier logic
+- a minimal push-anchor-support architecture
+- an integrated stack system
+- first-pass external validation support
+- an intervention-facing program layer
+- a ranked validation-preparation ladder
+- platform-facing and audience-specific packaging
 
-## Dataset A: current operational evidence
+## State-structure layer
 
-### Current reconstructed object
-- **58,079 cells × 32,287 genes**
-- **8 samples**
-- Conditions:
-  - **Demye: 22,933**
-  - **Remye: 18,153**
-  - **Normal: 16,993**
+The current state-structure layer includes:
 
-### Current oligodendrocyte-lineage subset
-- **7,507 OL-lineage cells**
-  - **5,591 Oligo**
-  - **1,916 OPC**
+- a **dominant repair-compatible basin**
+- an **intermediate / review-like zone**
+- a **boundary / frontier band**
+- an **alternative structured basin**
 
-### OL-lineage condition counts
-- **Demye: 1,945**
-- **Normal: 2,659**
-- **Remye: 2,903**
+This means the project no longer reads as a simple binary healthy-vs-failure map.
 
-### OL composition by condition
-- **Demye:** 39.7% OPC / 60.3% Oligo
-- **Normal:** 20.8% OPC / 79.2% Oligo
-- **Remye:** 20.4% OPC / 79.6% Oligo
+## Minimal architecture layer
 
-### Biological interpretation
-These patterns support a non-trivial repair trajectory in which:
-- **Demye** is more precursor-like / OPC-enriched
-- **Remye** is more mature-repair-like
-- **Normal** is intermediate
+The current minimal architecture is:
 
-This is one of the earliest pieces of evidence that the framework is capturing real state structure rather than only descriptive variation.
+- **Tspan2 = push**
+- **Ptprd = anchor**
+- **Aspa = support**
 
----
+This architecture should be read as the current best minimal control logic organizing the observed state-transition structure.
 
-## Current repair-state signature
+## Stack layer
 
-### Curated mature repair-state program
-- Mal
-- Cldn11
-- Plp1
-- Mog
-- Mobp
-- Mbp
-- Mag
-- Cnp
-- Abca2
-- Tspan2
-- Ptgds
-- Myrf
+The integrated stack family now includes:
 
-### Current role in the engine
-This signature is currently used to:
-- define mature repair-state structure
-- distinguish precursor-like vs mature repair-oriented states
-- support repair-state scoring logic
-- anchor candidate control-layer discovery
-- support transition-oriented modeling of repair-state probability
-- support cross-dataset directional consistency analysis
+- `default_safe_stack`
+- `balanced_analysis_stack`
+- `boundary_probe_stack`
+- `maximum_rescue_probe_stack`
 
----
+This layer matters because it formalizes a real rescue-vs-precision tradeoff instead of pretending that one universal operating mode solves every context.
 
-## Current candidate control layers
+## External validation layer
 
-### Flagship repair-state lever
-- **Tspan2**
-
-### Repair architecture / support layer
-- **Gjc2**
-- **Fa2h**
-- **Aspa**
-- **Abca2**
-
-### Signaling / control layer
-- **Ptgds**
-- **Ptprd**
-
-### Additional broader regulator appearing in some rankings
-- **Qk**
-
-### Current interpretation
-The current outputs suggest that remyelination is not behaving like a single-marker or single-pathway story. Instead, the framework is already beginning to resolve a more distributed control architecture with distinct candidate layers.
-
----
-
-## Current engine outputs
-
-### Already implemented
-- state mapping
-- mature repair-state signature derivation
-- candidate control-layer prioritization
-- transition modeling
-- intervention simulation
-
-### Already supported conceptually and operationally
-- remyelination reframed as a **state-transition problem**
-- mature repair-state structure derived
-- candidate layers separated into leverage / support / signaling-control roles
-- repair-state probability logic introduced
-- early intervention-oriented prioritization implemented
-
----
-
-## Cross-dataset support
+The external layer currently includes:
 
 ### Dataset B
-Current transfer-oriented validation supports directional consistency with the ordering:
-
-- **WT > PLP_iCKO > Sox10_iCKO**
-
-This is important because it suggests that the framework is not only fitting one derivation dataset, but retaining directional meaning in an independent biological context.
+- the main external benchmark
+- promising first-pass support for architecture portability
+- promising first-pass support for dominant-basin portability
+- promising first-pass support for review / boundary structure portability
+- promising first-pass support for integrated stack portability
 
 ### Dataset C
-Current WT recovery-order support strengthens the biological plausibility of the broader remyelination progression framework.
+- supportive triangulation layer
+- expectation-aware reading: **supportive_mixed**
+- useful reinforcement, but not a co-equal benchmark
 
----
+## Intervention-facing layer
 
-## Why this matters
+The current intervention-facing programs are:
 
-This file exists to show that Programmable Neurorepair already has a visible operational layer.
+- `default_safe_translation_program`
+- `balanced_state_transition_program`
+- `boundary_probe_program`
+- `maximum_rescue_program`
 
-What already exists is not only a thesis about neural state control, but a functioning early engine that has already produced:
+These are not finished therapeutic claims. They are structured programs derived from the current state map, architecture layer, external support layer, and transition logic.
 
-- a reconstructed and interpretable derivation dataset
-- a curated mature repair-state signature
-- a structured candidate control-layer decomposition
-- transition-oriented intervention logic
-- cross-dataset directional support
+## Validation-preparation layer
 
-That is what makes the project more than a conceptual direction. It is already generating the first non-trivial artifacts of a broader framework for modeling neural state change, identifying control architecture, and determining where intervention becomes tractable.
+The current ranked validation order is:
+
+1. `default_safe_translation_program`
+2. `balanced_state_transition_program`
+3. `boundary_probe_program`
+4. `maximum_rescue_program`
+
+This means the project now says not only what exists, but what should be tested first and in what order.
+
+## Platform / packaging layer
+
+The project also now includes:
+
+- a platform thesis / founder layer
+- a reviewer-facing summary layer
+- a founder-facing summary layer
+- a final external / reviewer / founder pack
+- a founder / fellowship pack
+- an application-tailored founder / fellowship pack
+- a Thiel-specific founder pack
+
+This makes the project externally legible in a way that goes beyond raw technical outputs.
+
+## Current status
+
+Current status:
+
+- **first wedge built**
+- **v1 strategically complete**
+- **external validation first version completed**
+- **intervention translation layer built**
+- **validation-preparation layer built**
+- **platform thesis built**
+- **application-specific packaging built**
+
+The next real phase is **experimental validation design**.
+
+## What this snapshot does support
+
+This snapshot supports the reading that the project now includes:
+
+- coherent state structure
+- minimal control architecture
+- operational stack logic
+- first-pass external support
+- intervention-facing programs
+- validation-preparation logic
+- a broader platform direction
+
+## What this snapshot does not support
+
+This snapshot does **not** support the claim that:
+
+- general neural state control has already been achieved
+- therapeutic efficacy has already been demonstrated
+- the project is already a finished company, product, or therapy
+- all ambiguity has already been fully resolved
+
+## Current interpretation
+
+The project should now be read as more than a remyelination summary, more than a repair signature, and more than a candidate list.
+
+It now behaves like an early but coherent system with enough structure to support serious scientific, reviewer-facing, and founder-facing interpretations.
+
+## Related files
+
+See also:
+
+- `README.md`
+- `PHASE_INDEX.md`
+- `transition_logic_summary.md`
+- `candidate_control_layers.md`
+- `dataset_roles.md`
+- `repair_signature_genes.md`
+- `results/`
