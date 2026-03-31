@@ -2,20 +2,29 @@
 
 ## Purpose
 
-This directory contains the build history of **Programmable Neurorepair**.
+This directory contains the technical build history of **Programmable Neurorepair**.
 
-The project did not emerge in one step. It was built across multiple technical and conceptual phases: state-structure derivation, controller refinement, biological interpretation, external validation, intervention translation, platform framing, and packaging.
+The project did not emerge in a single step. It evolved through multiple technical and conceptual phases: state-structure derivation, controller refinement, biological interpretation, external validation, intervention translation, platform framing, and audience-specific packaging.
 
-This folder should not be read as a flat collection of unrelated outputs.  
-It should be read as the technical development record of the project.
+This directory should not be read as a flat collection of unrelated outputs.  
+It should be read as the historical development record of the system.
 
-## How to use this directory
+## What this layer contains
 
-If you want the clearest guide to the results layer, start with:
+The results layer includes:
 
-- `results/PHASE_INDEX.md`
+- step-level technical outputs
+- summary tables
+- decision tables
+- verdict tables
+- transition logic artifacts
+- repair-signature artifacts
+- candidate-layer artifacts
+- external validation artifacts
+- intervention-layer artifacts
+- packaging artifacts
 
-That document explains how the results are grouped and which phases matter most.
+Later outputs build on earlier ones.
 
 ## Current high-level reading
 
@@ -32,60 +41,59 @@ The results layer now supports a project that includes:
 - a ranked validation-preparation ladder
 - platform-facing and application-specific packaging
 
-## What this folder contains
+## How to navigate this layer
 
-The `results/` directory includes:
+If you want the clearest guide to the results layer, start with:
 
-- step-level technical outputs
-- summary tables
-- decision tables
-- verdict tables
-- milestone packaging artifacts
-- external-facing synthesis layers
+- `PHASE_INDEX.md`
 
-These layers accumulate over time. Later steps build on earlier ones.
+That document explains how the results are grouped across the major phases of the project.
 
-## Recommended reading order
+## Legacy summary files
 
-If you are new to the technical results, the best order is:
+Some files in this directory reflect earlier summaries from earlier stages of the project, including:
 
-1. `results/PHASE_INDEX.md`
-2. `docs/RESULTS_INDEX.md`
-3. key phase-closing and synthesis layers
-4. step-level folders only if deeper provenance is needed
+- `candidate_control_layers.md`
+- `current_outputs_snapshot.md`
+- `dataset_roles.md`
+- `repair_signature_genes.md`
+- `transition_logic_summary.md`
 
-## Relation to the docs layer
-
-The `docs/` layer explains the project in a structured, reader-facing way.
-
-The `results/` layer stores the technical development path that supports those documents.
-
-Together, they form:
-
-- **docs** = explanation layer
-- **results** = build history / evidence layer
+These remain useful as part of the project history, but they should now be read in the context of the later controller, external validation, intervention, and platform layers.
 
 ## Current interpretation
 
-The `results/` directory is no longer only a storage location for intermediate files.
+The results layer is no longer only a storage location for intermediate files.
 
 It is the historical record of how the project moved from:
 
 - repair-state mapping
-- to state-transition interpretation
+- to transition-logic interpretation
 - to minimal control architecture
-- to intervention-facing logic
+- to integrated stack logic
+- to external validation
+- to intervention-facing programs
 - to validation preparation
-- to externalization and platform framing
+- to platform framing and externalization
 
-## Related files
+## Recommended reading order
+
+If you are new to the results layer, the best order is:
+
+1. `PHASE_INDEX.md`
+2. the later synthesis and closure layers
+3. external validation layers
+4. intervention and platform layers
+5. earlier derivation summaries if deeper provenance is needed
+
+## Related documents
 
 See also:
 
-- `results/PHASE_INDEX.md`
-- `docs/RESULTS_INDEX.md`
-- `docs/PROJECT_OVERVIEW.md`
-- `docs/SYSTEM_STACKS.md`
-- `docs/INTERVENTION_LAYER.md`
-- `docs/EXTERNAL_VALIDATION.md`
-- `docs/PLATFORM_THESIS.md`
+- `../README.md`
+- `../docs/DOCS_HOME.md`
+- `../docs/PROJECT_OVERVIEW.md`
+- `../docs/RESULTS_INDEX.md`
+- `../docs/EXTERNAL_VALIDATION.md`
+- `../docs/INTERVENTION_LAYER.md`
+- `../docs/PLATFORM_THESIS.md`
