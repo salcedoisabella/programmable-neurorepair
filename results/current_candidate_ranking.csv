@@ -1,48 +1,15 @@
-# Current Candidate Ranking v3
-
-## Purpose
-
-This file is a cleaned and updated candidate-ranking layer for the current version of Programmable Neurorepair.
-
-It should not be read as a flat legacy ranking alone. It now reflects the current project reading:
-
-- minimal architecture
-- control-layer roles
-- stack alignment
-- intervention-program alignment
-- external-support interpretation
-
-## Current top interpretation
-
-The top current candidates are no longer only high-ranking genes. They are now best read as differentiated control-layer roles inside the broader state-transition architecture.
-
-## Top current architecture candidates
-
-### 1. Tspan2
-- role: push
-- stack alignment: balanced_analysis_stack | boundary_probe_stack | maximum_rescue_probe_stack
-- program alignment: balanced_state_transition_program | boundary_probe_program | maximum_rescue_program
-- external support reading: externally interpretable in Dataset B; not a simple terminal-best-state marker
-- note: Best read as movement-opening logic rather than naive monotonic higher-is-better repair signal.
-
-### 2. Ptprd
-- role: anchor
-- stack alignment: default_safe_stack | balanced_analysis_stack | boundary_probe_stack
-- program alignment: default_safe_translation_program | balanced_state_transition_program | boundary_probe_program
-- external support reading: externally supported in Dataset B with WT > PLP_iCKO > Sox10_iCKO style ordering
-- note: Best read as commitment-stabilizing and directionality-preserving logic.
-
-### 3. Aspa
-- role: support
-- stack alignment: default_safe_stack | maximum_rescue_probe_stack
-- program alignment: default_safe_translation_program | maximum_rescue_program
-- external support reading: externally supported in Dataset B with WT > PLP_iCKO > Sox10_iCKO style ordering
-- note: Best read as consolidation, maturation, and durability support rather than movement-opening logic.
-
-## How to read the remaining rows
-
-The remaining rows are primarily supporting repair-signature or repair-state-anchor candidates. They remain useful, but they should not be confused with the core minimal architecture unless later evidence upgrades them into a control-role interpretation.
-
-## Guardrail
-
-This table is a current structured prioritization artifact. It is not a final mechanistic proof and should not be treated as the full project on its own.
+rank,candidate,candidate_group,current_role,state_alignment,stack_alignment,program_alignment,external_support_reading,evidence_basis,current_status,notes
+1,Tspan2,minimal_architecture,push,intermediate_to_frontier_transition_logic,balanced_analysis_stack | boundary_probe_stack | maximum_rescue_probe_stack,balanced_state_transition_program | boundary_probe_program | maximum_rescue_program,externally interpretable in Dataset B and not a simple terminal-best-state marker,minimal architecture + transition logic + intervention layer + Dataset B first-pass support,core_current_candidate,Best read as movement-opening logic rather than a naive monotonic repair signal
+2,Ptprd,minimal_architecture,anchor,dominant_basin_commitment_and_directionality,default_safe_stack | balanced_analysis_stack | boundary_probe_stack,default_safe_translation_program | balanced_state_transition_program | boundary_probe_program,externally supported in Dataset B with WT > PLP_iCKO > Sox10_iCKO ordering,minimal architecture + transition logic + intervention layer + Dataset B first-pass support,core_current_candidate,Best read as commitment-stabilizing and directionality-preserving logic
+3,Aspa,minimal_architecture,support,repair_compatible_consolidation_and_maturation,default_safe_stack | maximum_rescue_probe_stack,default_safe_translation_program | maximum_rescue_program,externally supported in Dataset B with WT > PLP_iCKO > Sox10_iCKO ordering,minimal architecture + transition logic + intervention layer + Dataset B first-pass support,core_current_candidate,Best read as consolidation maturation and durability support rather than movement-opening logic
+4,Mal,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+5,Cldn11,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+6,Plp1,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+7,Mog,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+8,Mobp,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+9,Mbp,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+10,Mag,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+11,Cnp,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+12,Abca2,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+13,Ptgds,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
+14,Myrf,repair_signature_anchor,repair_state_anchor_or_supporting_marker,dominant_repair_compatible_basin,default_safe_stack,default_safe_translation_program,supportive as part of repair-compatible state logic and not a primary minimal-architecture role by default,repair signature layer + dominant basin reading + current outputs snapshot,supporting_current_candidate,Useful as part of the repair-compatible molecular anchor but not automatically equivalent to a core control role
