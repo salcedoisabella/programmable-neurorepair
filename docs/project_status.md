@@ -129,7 +129,7 @@ It reflects the first wedge, not necessarily the final scope. As the project exp
 
 The strongest current status reading is:
 
-**an early but coherent system with enough structure to support serious scientific, reviewer-facing, and founder-facing interpretations, and with the next real step being validation rather than more internal polishing.**
+**a serious first wedge with coherent state structure, minimal control architecture, external first-pass support, and enough maturity to support scientific, reviewer-facing, and founder-facing readings — with the next real step being validation rather than further internal polishing.**
 
 ## Related documents
 
