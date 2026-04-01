@@ -130,12 +130,11 @@ It reflects the first wedge, not necessarily the final scope. As the project exp
 The strongest current status reading is:
 
 **a serious first wedge with coherent state structure, minimal control architecture, external first-pass support, and enough maturity to support scientific, reviewer-facing, and founder-facing readings — with the next real step being validation rather than further internal polishing.**
-
 ## Related documents
 
 See also:
 
-- `README.md`
+- `../README.md`
 - `DOCS_HOME.md`
 - `PROJECT_OVERVIEW.md`
 - `SYSTEM_STACKS.md`
@@ -145,3 +144,4 @@ See also:
 - `RESULTS_INDEX.md`
 - `REVIEWER_SUMMARY.md`
 - `FOUNDER_SUMMARY.md`
+- `../results/README.md`
