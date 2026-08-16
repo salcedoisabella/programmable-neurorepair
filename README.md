@@ -1,4 +1,11 @@
-# Programmable Neurorepair
+> [!IMPORTANT]
+> **Archived precursor research project**
+>
+> This repository documents an earlier independent research direction developed before Aukemir. It is no longer an active research program and does not represent the current scientific thesis, evidence state, or technical architecture of Aukemir.
+>
+> It is preserved publicly as a versioned record of prior work and scientific development.
+>---
+> # Programmable Neurorepair
 
 **A computational wedge into neural state control, starting with remyelination and oligodendrocyte-lineage repair.**
 
